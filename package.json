@@ -1,0 +1,32 @@
+{
+  "name": "@origamicore/semaphore",
+  "version": "0.1.0",
+  "description": "origamicore semaphore",
+  "main": "./dist/Index.js",
+  "scripts": {
+    "build": "npx tsc",
+    "start": "node ./dist/sample/Index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/origamicore/semaphore.git"
+  },
+  "keywords": [
+    "semaphore",
+    "origamicore"
+  ],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/origamicore/semaphore.git/issues"
+  },
+  "homepage": "https://github.com/origamicore/semaphore.git#readme",
+  "dependencies": {
+    "@origamicore/core": "^4.0.4",
+    "@types/node": "^20.4.3",
+    "typescript": "^5.1.6",
+    "uuid": "^9.0.0",
+    "websocket": "^1.0.34",
+    "ws": "^8.13.0"
+  }
+}

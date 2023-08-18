@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "lib": [ 
+      "ES2021.String"
+    ],
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true, 
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "target": "es6",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist"
+  },
+  "lib": ["es2015"]
+}
